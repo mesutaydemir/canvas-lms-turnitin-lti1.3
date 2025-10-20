@@ -8,8 +8,8 @@
 ## Turnitin'de ilk ayarlar
 1. Küresel bir kurumun üyesiyseniz, `turnitin.com` üzerinden Turnitin hesabınıza giriş yapın. Alternatif olarak, Birleşik Krallık'taki bir kurumun üyesiyseniz `turnitinuk.com` adresinden giriş yapın.
 3. Ekranın üst kısmındaki açılır menüden **Yönetici** görünümünün etkinleştirildiğinden emin olun. Öğretmen veya Öğrenci seçiliyse, lütfen Yönetici olarak değiştirin.
-   <img width="272" height="148" alt="turnitin01" src="https://github.com/user-attachments/assets/742c42c3-90c5-42b9-91cf-6c9ce59d38d0" />
 
+<img width="272" height="148" alt="turnitin01" src="https://github.com/user-attachments/assets/742c42c3-90c5-42b9-91cf-6c9ce59d38d0" />
 4. Yönetici ana sayfasındaki `Entegrasyonlar` sütununda `Yapılandırılmamış` veya `Yapılandırılmış` düğmesi görünecektir. Bu düğme, yapılandırma başarıyla tamamlandıktan sonra bile “yapılandırılmamış” durumunu koruyabilir. 
 
 > Canvas test ortamınızda zaten bir LTI 1.1 entegrasyonu kuruluysa, test ortamınız için aynı hesabı kullandığınızdan emin olun.
