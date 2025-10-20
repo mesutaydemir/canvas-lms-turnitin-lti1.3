@@ -33,3 +33,12 @@
 <img width="1162" height="790" alt="turnitin05" src="https://github.com/user-attachments/assets/24318fb3-5497-4b58-b5fa-d15f17868bbb" />
 
 10. Bu sayfayı açık tutun ve Canvas Açık Kaynak ortamınıza yeni bir sekme açın.
+
+## Canvas tarafı ayarlar
+1. Öncelike `/var/canvas/config/security.yml` dosyasında `lti_iss: 'https://canvas.instructure.com'` değeri `lti_iss: 'https://canvas_lms_urlniz'` olarak güncellenip canvas lms uygulaması yeniden başlatın.
+2. Canvas ortamınızın `Yönetici` sayfasına gidin ve ardından `Geliştirici Anahtarları` bölümünü açın.
+<img width="1178" height="487" alt="turnitin06" src="https://github.com/user-attachments/assets/3be17f20-c8da-4698-8212-f804c9b0386a" />
+3. Alt menüden + LTI Anahtarı seçeneğini seçin. Bir yapılandırma ekranı görüntülenecektir. Aşağıdaki bilgileri kullanarak alanları doldurun:
+||||
+
+
