@@ -39,6 +39,16 @@
 2. Canvas ortamınızın `Yönetici` sayfasına gidin ve ardından `Geliştirici Anahtarları` bölümünü açın.
 <img width="1178" height="487" alt="turnitin06" src="https://github.com/user-attachments/assets/3be17f20-c8da-4698-8212-f804c9b0386a" />
 3. Alt menüden + LTI Anahtarı seçeneğini seçin. Bir yapılandırma ekranı görüntülenecektir. Aşağıdaki bilgileri kullanarak alanları doldurun:
-||||
 
-
+| Canvas LMS Alan Adı   | Girilmesi Gerekn Değer |
+| --------------------- | ------------ |
+| Method                 | Elle Giriş |
+| Anahtar Adı                 | Hesabınızın geliştirici anahtarları listesinde kullanılacak, tanımlanabilir bir ad oluşturun, örneğin Turnitin. |
+| Redirect URLs                 | 10.234.26.11 |
+| Başlık                 | 10.234.26.11 |
+| Description                 | 10.234.26.11 |
+| Target Link URL                 | 10.234.26.11 |
+| JWK Method                 | 10.234.26.11 |
+| Target Link URL                 | 10.234.26.11 |
+| Target Link URL                 | 10.234.26.11 |
+| Target Link URL                 | 10.234.26.11 |
