@@ -36,19 +36,41 @@
 
 ## Canvas tarafı ayarlar
 1. Öncelike `/var/canvas/config/security.yml` dosyasında `lti_iss: 'https://canvas.instructure.com'` değeri `lti_iss: 'https://canvas_lms_urlniz'` olarak güncellenip canvas lms uygulaması yeniden başlatın.
-2. Canvas ortamınızın `Yönetici` sayfasına gidin ve ardından `Geliştirici Anahtarları` bölümünü açın.
-<img width="1178" height="487" alt="turnitin06" src="https://github.com/user-attachments/assets/3be17f20-c8da-4698-8212-f804c9b0386a" />
-3. Alt menüden + LTI Anahtarı seçeneğini seçin. Bir yapılandırma ekranı görüntülenecektir. Aşağıdaki bilgileri kullanarak alanları doldurun:
+2. Site Admin -> Ayarlar -> Özellik Seçenekleri altında `LTI Deep Linking Line Items on Assignment edit page`i aktifleştirin ve kilidini çözün.
+<img width="1199" height="698" alt="turnitin10" src="https://github.com/user-attachments/assets/208c1d65-62d7-48a5-8ece-80ca24370054" />
 
-| Canvas LMS Alan Adı   | Girilmesi Gerekn Değer |
+3. Aynı ayarı ana hesap için de yapın:
+<img width="1191" height="759" alt="turnitin11" src="https://github.com/user-attachments/assets/97ec05fc-d5f2-44eb-b255-a6f7042ec7f0" />
+
+4. Canvas ortamınızın `Yönetici` sayfasına gidin ve ardından `Geliştirici Anahtarları` bölümünü açın.
+<img width="1178" height="487" alt="turnitin06" src="https://github.com/user-attachments/assets/3be17f20-c8da-4698-8212-f804c9b0386a" />
+5. Alt menüden + LTI Anahtarı seçeneğini seçin. Bir yapılandırma ekranı görüntülenecektir. Aşağıdaki bilgileri kullanarak alanları doldurun:
+
+| Canvas LMS Alan Adı   | Girilmesi Gereken Değer |
 | --------------------- | ------------ |
 | Method                 | Elle Giriş |
 | Anahtar Adı                 | Hesabınızın geliştirici anahtarları listesinde kullanılacak, tanımlanabilir bir ad oluşturun, örneğin Turnitin. |
-| Redirect URLs                 | 10.234.26.11 |
-| Başlık                 | 10.234.26.11 |
-| Description                 | 10.234.26.11 |
-| Target Link URL                 | 10.234.26.11 |
-| JWK Method                 | 10.234.26.11 |
-| Target Link URL                 | 10.234.26.11 |
-| Target Link URL                 | 10.234.26.11 |
-| Target Link URL                 | 10.234.26.11 |
+| Redirect URLs                 | https://lti.int.turnitin.com/launch |
+| Başlık                 | Öğretim görevlilerinin yeni bir ödev oluşturmak için kullanacakları entegrasyona bir ad verin, örneğin Turnitin. |
+| Description                 | Entegrasyonla ilgili kaydetmek istediğiniz bilgileri veya notları ekleyin. |
+| Target Link URL                 | https://lti.int.turnitin.com/launch/tfs |
+| JWK Method                 | Use the drop-down to select **Public JWK URL** |
+
+6. Turnitin sekmesine geçin ve aşağıdaki alanları kopyalayın. Bunları uygun Canvas alanlarına yapıştırın.
+
+| Canvas LMS Alan Adı   | Girilmesi Gereken Değer | 
+| --------------------- | ------------ |
+| OpenID Connect Initiation URL               | Login Initiation URL|
+| Public JWK URL                 | Tool Public Key set URL |
+
+> Bu alanları ayarladıktan sonra Turnitin sayfasını açık tutun. Bağlantıyı tamamlamak için Turnitin'e bilgi eklemek üzere bir sonraki adımda bu sayfaya ihtiyacınız olacak.
+
+7. Canvas'a geri dönün ve `LTI Advantage Services` bölümünü genişletin. Turnitin bağlantısının doğru verileri başarıyla iletebilmesi için burada belirli varsayılan ayarlar yapılmalıdır. İlk 8 seçeneği seçin ve aşağıdaki tabloyu kullanarak doğru seçenekleri seçtiğinizden emin olun.
+<img width="894" height="458" alt="turntin07" src="https://github.com/user-attachments/assets/74928457-f293-4f83-ba84-ce0da0a9d06f" />
+
+8. `Ek Ayarlar` bölümünü açın. `Alan` bölümüne `turnitin.com` yazın. Ardından `Gizlilik Düzeyini`, `Özel` yerine `Herkese Açık` olarak değiştirin.
+<img width="914" height="472" alt="turnitin08" src="https://github.com/user-attachments/assets/2a34eb05-6561-4219-b953-03f8f271675d" />
+
+9. Yerleşimler bölümüne geçerek, seçilmiş butonların üzerindeki X simgesini seçerek varsayılan seçenekleri kaldırın. Yerleştirme doğru şekilde başarıyla ayarlandığında, yeni bir `Ders Ödevleri Menüsü (Course Assignments Menu)` bölümü görünecektir. Bu bölümü genişletin. `Ders Ödevleri Menüsü` bölümünden `LTIDeepLinkingRequest` seçeneğini seçin. Diğer tüm alanlar boş bırakılabilir.
+
+<img width="944" height="666" alt="turnitin09" src="https://github.com/user-attachments/assets/e1c0a55a-1f2e-4213-b405-c50b033b0624" />
