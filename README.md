@@ -81,13 +81,14 @@
 
 ## Turnitin Sisteminde Ayarlara Devam
 1. Tarayıcınızda açık olan turnitin sayfasına gidin ve `LMS ayrıntıları` başlıklı bölümü aşağıdaki gibi doldurun ve sayfanın altındaki `Kaydet`butonuna tıklayın.
-| Turnitin Sayfası- LMS Ayarları            | Girilmesi Gereken Değer                                               | 
-| ----------------------------------------- | --------------------------------------------------------------------- | 
-| Platform genel anahtar seti URL'si        | https://canvas_lms_adresiniz.com/api/lti/security/jwks                | 
-| Sertifikayı veren                         | https://canvas_lms_adresiniz.com                                      | 
-| İstemci kimliği                           | canvas lms'te oluşturduğunuz geliştirici anahtarın 15 haneli anahtarı | 
-| Erişim belirteci URL'si                   | https://canvas_lms_adresiniz.com/login/oauth2/token                   | 
-| OpenID bağlantı oturumu uç noktası        | https://canvas_lms_adresiniz.com/api/lti/authorize_redirect           | 
+   
+| Turnitin Sayfası- LMS Ayarları            | Girilmesi Gereken Değer                                               |
+| ----------------------------------------- | --------------------------------------------------------------------- |
+| Platform genel anahtar seti URL'si        | https://canvas_lms_adresiniz.com/api/lti/security/jwks                |
+| Sertifikayı veren                         | https://canvas_lms_adresiniz.com                                      |
+| İstemci kimliği                           | canvas lms'te oluşturduğunuz geliştirici anahtarın 15 haneli anahtarı |
+| Erişim belirteci URL'si                   | https://canvas_lms_adresiniz.com/login/oauth2/token                   |
+| OpenID bağlantı oturumu uç noktası        | https://canvas_lms_adresiniz.com/api/lti/authorize_redirect           |
 | Platform yetki sağlayıcısı (isteğe bağlı) | Boş                                                                   |
 
 ## Canvas LMS Sİsteminde Turnitin Uygulanasının Eklenmesi
