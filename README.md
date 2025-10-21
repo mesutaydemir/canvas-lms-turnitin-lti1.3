@@ -105,10 +105,15 @@
 2. Soldaki ders gezinme menüsünde sırasıyla `Ödevler` --> `Dikey 3 nokta`--> `Turnitin LTI 1.3` bağlantısına tıklayın.
 <img width="1260" height="255" alt="turnitin16" src="https://github.com/user-attachments/assets/6fcbd9d1-dd08-405e-9cec-4f4c24abdcce" />
 
-4. Sistem yöneticisi olduğunuz için ilk ödev oluşturmada bir defaya mahsus api.turnitin.com yönetici hesap bilgilerinizi girmeniz gerekmektedir. Bu işlem bir defa sistem yöneticisi tarafından yapılmalıdır.
+4.Açılan ekranda bir defaya mahsus `GLOBAL` butonuna tıklayın.
+
+<img width="824" height="566" alt="turnitin19" src="https://github.com/user-attachments/assets/4ce72032-5390-495d-85b1-be472d01e1f6" />
+
+
+5. Sistem yöneticisi olduğunuz için ilk ödev oluşturmada bir defaya mahsus api.turnitin.com yönetici hesap bilgilerinizi girmeniz gerekmektedir. Bu işlem bir defa sistem yöneticisi tarafından yapılmalıdır.
 <img width="825" height="562" alt="turnitin17" src="https://github.com/user-attachments/assets/5da9590a-843b-48a4-b66e-b2480498c08e" />
 
-5. Tönetici bilgileri girildikten sonra açılan ekranda turnitin uygulamasının tanımlı olduğu kurum/birim seçilmelidir. Seçim tamamlandıktan sonra sağ alttaki `Next` butonuna tıklayın.
+6. Tönetici bilgileri girildikten sonra açılan ekranda turnitin uygulamasının tanımlı olduğu kurum/birim seçilmelidir. Seçim tamamlandıktan sonra sağ alttaki `Next` butonuna tıklayın.
 
 <img width="824" height="566" alt="turnitin18" src="https://github.com/user-attachments/assets/ce5b131b-c5bf-4ac5-b54a-7d9d956873b0" />
 
