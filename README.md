@@ -104,7 +104,3 @@
 
 4. Sistem yöneticisi olduğunuz için ilk ödev oluşturmada bir defaya mahsus api.turnitin.com yönetici hesap bilgilerinizi girmeniz gerekmektedir. Bu işlem bir defa sistem yöneticisi tarafından yapılmalıdır.
 
-
-
-
-<img width="944" height="666" alt="turnitin09" src="https://github.com/user-attachments/assets/e1c0a55a-1f2e-4213-b405-c50b033b0624" />
