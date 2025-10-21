@@ -72,5 +72,39 @@
 <img width="914" height="472" alt="turnitin08" src="https://github.com/user-attachments/assets/2a34eb05-6561-4219-b953-03f8f271675d" />
 
 9. Yerleşimler bölümüne geçerek, seçilmiş butonların üzerindeki X simgesini seçerek varsayılan seçenekleri kaldırın. Yerleştirme doğru şekilde başarıyla ayarlandığında, yeni bir `Ders Ödevleri Menüsü (Course Assignments Menu)` bölümü görünecektir. Bu bölümü genişletin. `Ders Ödevleri Menüsü` bölümünden `LTIDeepLinkingRequest` seçeneğini seçin. Diğer tüm alanlar boş bırakılabilir.
+10. `Kaydet` butonuna tıklayıp `Geliştirici Anahtarları` sayfasına dönün.
+11. Burada oluşturulmuş LTI anahtarının sağındaki butonu `AÇIK` konuma getirin ve 15 haneli anahtarı kopyalayın. Anahtarı göster butonuna tıklamanıza gerek yoktur. Canvas lms saynaız açık kalsın.
+    <img width="1253" height="339" alt="turnitin12" src="https://github.com/user-attachments/assets/60ed3877-4929-4d6d-9c49-435e7d8da563" />
+
+## Turnitin Sisteminde Ayarlara Devam
+1. Tarayıcınızda açık olan turnitin sayfasına gidin ve `LMS ayrıntıları` başlıklı bölümü aşağıdaki gibi doldurun ve sayfanın altındaki `Kaydet`butonuna tıklayın.
+| Turnitin Sayfası- LMS Ayarları            | Girilmesi Gereken Değer                                               | 
+| ----------------------------------------- | --------------------------------------------------------------------- | 
+| Platform genel anahtar seti URL'si        | https://canvas_lms_adresiniz.com/api/lti/security/jwks                | 
+| Sertifikayı veren                         | https://canvas_lms_adresiniz.com                                      | 
+| İstemci kimliği                           | canvas lms'te oluşturduğunuz geliştirici anahtarın 15 haneli anahtarı | 
+| Erişim belirteci URL'si                   | https://canvas_lms_adresiniz.com/login/oauth2/token                   | 
+| OpenID bağlantı oturumu uç noktası        | https://canvas_lms_adresiniz.com/api/lti/authorize_redirect           | 
+| Platform yetki sağlayıcısı (isteğe bağlı) | Boş                                                                   |
+
+## Canvas LMS Sİsteminde Turnitin Uygulanasının Eklenmesi
+1. Tarayıcınızda açık olan Canvas lms sekmesine gidin ve Ana hesap yöneticisinde sırasıyla `Ayarlar` --> `Uygulamalar` --> `+ Uygulama` bağlantılarına tıklayın.
+<img width="1245" height="714" alt="turnitin13" src="https://github.com/user-attachments/assets/136e9949-ce70-48d6-b808-399d5811d702" />
+
+2. Açılan pencerede `Yapılandırma Türü` açılır menüsünde `By Client ID` seçin. `Müşteri ID` alanına kopyaladığınız 15 haneli anahtarı yapıştırın ve `Gönder` butonuna tıklayın.
+<img width="1258" height="362" alt="turnitin14" src="https://github.com/user-attachments/assets/0dd51554-154d-4b9c-8095-4ee3f703a31f" />
+
+3. Uygulamayı yüklemek için bir onay penceresi çıkacaktır. Burada `Install` butonuna tıklayıp kurulumu tamamlayın.
+<img width="992" height="217" alt="turnitin15" src="https://github.com/user-attachments/assets/9700f459-b199-4b3f-bf3c-1f91081c673b" />
+
+### Canvas LMS'te bir Test Ödevi Oluşturun
+1. Canvas Lms'te test ödevi oluşturmak istediğiniz derse gidin.
+2. Soldaki ders gezinme menüsünde sırasıyla `Ödevler` --> `Dikey 3 nokta`--> `Turnitin LTI 1.3` bağlantısına tıklayın.
+<img width="1260" height="255" alt="turnitin16" src="https://github.com/user-attachments/assets/6fcbd9d1-dd08-405e-9cec-4f4c24abdcce" />
+
+4. Sistem yöneticisi olduğunuz için ilk ödev oluşturmada bir defaya mahsus api.turnitin.com yönetici hesap bilgilerinizi girmeniz gerekmektedir. Bu işlem bir defa sistem yöneticisi tarafından yapılmalıdır.
+
+
+
 
 <img width="944" height="666" alt="turnitin09" src="https://github.com/user-attachments/assets/e1c0a55a-1f2e-4213-b405-c50b033b0624" />
