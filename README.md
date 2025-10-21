@@ -71,7 +71,10 @@
 8. `Ek Ayarlar` bölümünü açın. `Alan` bölümüne `turnitin.com` yazın. Ardından `Gizlilik Düzeyini`, `Özel` yerine `Herkese Açık` olarak değiştirin.
 <img width="914" height="472" alt="turnitin08" src="https://github.com/user-attachments/assets/2a34eb05-6561-4219-b953-03f8f271675d" />
 
-9. Yerleşimler bölümüne geçerek, seçilmiş butonların üzerindeki X simgesini seçerek varsayılan seçenekleri kaldırın. Yerleştirme doğru şekilde başarıyla ayarlandığında, yeni bir `Ders Ödevleri Menüsü (Course Assignments Menu)` bölümü görünecektir. Bu bölümü genişletin. `Ders Ödevleri Menüsü` bölümünden `LTIDeepLinkingRequest` seçeneğini seçin. Diğer tüm alanlar boş bırakılabilir.
+9. Yerleştirmeler bölümüne geçerek, seçilmiş butonların üzerindeki X simgesini seçerek varsayılan seçenekleri kaldırın. Yerleştirme doğru şekilde başarıyla ayarlandığında, yeni bir `Ders Ödevleri Menüsü (Course Assignments Menu)` bölümü görünecektir. Bu bölümü genişletin. `Ders Ödevleri Menüsü` bölümünden `LTIDeepLinkingRequest` seçeneğini seçin. Diğer tüm alanlar boş bırakılabilir.
+
+<img width="944" height="666" alt="503302718-e1c0a55a-1f2e-4213-b405-c50b033b0624" src="https://github.com/user-attachments/assets/be4ac034-950d-44ae-b1cc-9aca9db492f5" />
+
 10. `Kaydet` butonuna tıklayıp `Geliştirici Anahtarları` sayfasına dönün.
 11. Burada oluşturulmuş LTI anahtarının sağındaki butonu `AÇIK` konuma getirin ve 15 haneli anahtarı kopyalayın. Anahtarı göster butonuna tıklamanıza gerek yoktur. Canvas lms saynaız açık kalsın.
     <img width="1253" height="339" alt="turnitin12" src="https://github.com/user-attachments/assets/60ed3877-4929-4d6d-9c49-435e7d8da563" />
